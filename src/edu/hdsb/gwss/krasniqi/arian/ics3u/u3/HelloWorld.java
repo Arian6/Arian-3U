@@ -1,7 +1,7 @@
 /*
  * Name: HelloWorld.java
  * Date: Feb 24th, 2015
- * Version: v0.1
+ * Version: v0.2
  * Author: Arian Krasniqi
  * Description: Simple program to display "Hello World" to the screen
 */
@@ -19,8 +19,8 @@ public class HelloWorld {
      */
     public static void main(String[] args) {
         
-        System.out.println( "Hello World" );
-        System.err.println( "Hello World" );
+        System.out.println( "Hello World!" );
+        System.err.println( "Hello World!" );
     }
     
 }
