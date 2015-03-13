@@ -4,8 +4,10 @@
  * Author: Arian Krasniqi
  */
 
-
+//CONSTANTS
 final int startc = 50;
+
+//VARIABLES
 int whitetri = startc + 70;
 int greentri = startc + 45;
 int yellowtri = startc + 100;
@@ -14,7 +16,7 @@ int whitetritip = startc + 200;
 int greentritip = startc + 175;
 
 //display size
-size(500,5000);
+size(1000,1000);
 
 //red rectangle
 noStroke();
