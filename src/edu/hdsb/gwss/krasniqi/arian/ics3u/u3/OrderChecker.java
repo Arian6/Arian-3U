@@ -5,6 +5,7 @@
  */
 package edu.hdsb.gwss.krasniqi.arian.ics3u.u3;
 
+import java.text.NumberFormat;
 import java.util.Scanner;
 
 /**
@@ -18,34 +19,58 @@ public class OrderChecker {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Scanner input = new Scanner( System.in );
+        Scanner input = new Scanner(System.in);
+        NumberFormat money = NumberFormat.getCurrencyInstance();
+        
+        //bolt variable
         int amountbolts;
-       
+
         System.out.println("Enter the amount of bolts you wish to purchase:");
-            
-            amountbolts = input.nextInt();
-            
+
+        amountbolts = input.nextInt();
+
+        //nut variable
         int amountnuts;
-        
-         
+
         System.out.println("Enter the amount of nuts you wish to purchase:");
-        
-            amountnuts = input.nextInt();
-            
+
+        amountnuts = input.nextInt();
+
+        //Nut Check
+        if (amountnuts < amountbolts) {
+            System.out.println("Check the order, too few nuts");
+        }
+        if (amountnuts == amountbolts) {
+
+        } else {
+            System.out.println("Check the order, excess amount of nuts");
+        }
+
+        //Washer variable
         int amountwashers;
-        
-            System.out.println("Enter the amount of washers you wish to purchase:");
-            
-           amountwashers = input.nextInt();
+
+        System.out.println("Enter the amount of washers you wish to purchase:");
+
+        amountwashers = input.nextInt();
+           //washer check
+
+     if (amountwashers < amountbolts * 2) {
+            System.out.println("Check the order, too few washers");
+        }
+        if (amountwashers == amountbolts * 2) {
+
+        } else { 
+            System.out.println("Check the order, excess amount of washers");
+        }
    //Variable     
-   amountbolts = input.nextInt();
-   
-    System.out.println("Number of bolts:        "  +  amountbolts);
         
+        double boltprice = amountbolts * .05;
+        double nutprice = amountnuts * .03;
+        double washerprice = amountwashers * .01;
+        double total = washerprice + nutprice + boltprice;
+      
         
-        
-        
-        
+        System.out.println("Your total is       " + money.format(total));
     }
-    
+
 }
