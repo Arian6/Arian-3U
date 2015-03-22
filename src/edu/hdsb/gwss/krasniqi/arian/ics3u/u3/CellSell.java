@@ -23,6 +23,7 @@ public class CellSell {
         //Objects
         Scanner input = new Scanner(System.in);
         NumberFormat money = NumberFormat.getCurrencyInstance();
+        
         //variables
         int daytime;
         int evening;
@@ -86,9 +87,9 @@ public class CellSell {
         if (plana < planb) {
             System.out.println("Plan A is the cheapest");
         }
-        if (plana > planb) {
+        else if (plana > planb) {
             System.out.println("Plan B is the cheapest");
-        } else {
+        } else if (plana == planb) {
             System.out.println("Both plans will cost the same");
         }
 
