@@ -1,0 +1,56 @@
+
+
+PART A:
+
+public static int toFahrenheit (int celcius, int fahrenheit) {
+
+	int fahrenheit = ((9/5) * celcius) + 32;
+	
+	return fahrenheit;
+
+
+}
+
+public static int toCelcius (int celcius, int fahrenheit) {
+
+	int celcius = (fahrenheit - 32) / (9/5);
+	
+	return celcius;
+
+
+}
+
+Part B:
+
+public static int toFahrenheit (int celcius, int fahrenheit) {
+
+	int celcius = 25;
+
+	int fahrenheit = ((9/5) * celcius) + 32;
+	
+	return fahrenheit;
+
+
+}
+
+public static int toCelcius (int celcius, int fahrenheit) {
+
+	int fahrenheit = 76;
+	
+	int celcius = (fahrenheit - 32) / (9/5);
+	
+	return celcius;
+
+
+}
+public static void displayTemperatures (int celcius, int fahrenheit) {
+
+	int celcius;
+	int fahrenheit;
+	
+	System.out.println("Your fahrenheit in celcius is: " + celcius);
+	System.out.println("Your celcius in fahrenheit is: " + fahrenheit);
+	
+	
+
+}

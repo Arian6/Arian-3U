@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="135" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="programTitleLabel" min="-2" pref="276" max="-2" attributes="0"/>
+                          <Component id="programUserInfoLabel" min="-2" pref="365" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                              <Component id="weekDayInputTemperatureLabel" min="-2" pref="319" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="displayTemperatureButton" pref="203" max="32767" attributes="0"/>
+                                  <Component id="maximumTemperatureDisplay" max="32767" attributes="0"/>
+                                  <Component id="minimumTemperatureDisplay" max="32767" attributes="0"/>
+                                  <Component id="averageTemperatureDisplay" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="dailyHighTemperatureInput" min="-2" pref="75" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                              <Component id="dailyHighConfirmationButton" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="dayOfWeekTemperatureDisplay3" min="-2" pref="192" max="-2" attributes="0"/>
+                          <Component id="dayOfWeekTemperatureDisplay2" min="-2" pref="192" max="-2" attributes="0"/>
+                          <Component id="dayOfWeekTemperatureDisplay4" min="-2" pref="192" max="-2" attributes="0"/>
+                          <Component id="dayOfWeekTemperatureDisplay5" min="-2" pref="192" max="-2" attributes="0"/>
+                          <Component id="dayOfWeekTemperatureDisplay6" min="-2" pref="192" max="-2" attributes="0"/>
+                          <Component id="dayOfWeekTemperatureDisplay7" alignment="0" min="-2" pref="192" max="-2" attributes="0"/>
+                          <Component id="dayOfWeekTemperatureDisplay1" min="-2" pref="192" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="208" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+              <Component id="programTitleLabel" min="-2" pref="25" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="programUserInfoLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="weekDayInputTemperatureLabel" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="dailyHighTemperatureInput" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="dailyHighConfirmationButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="displayTemperatureButton" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                  <Component id="dayOfWeekTemperatureDisplay1" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="dayOfWeekTemperatureDisplay2" min="-2" pref="33" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="maximumTemperatureDisplay" min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="dayOfWeekTemperatureDisplay3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="minimumTemperatureDisplay" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                  <Component id="dayOfWeekTemperatureDisplay4" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="dayOfWeekTemperatureDisplay5" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="averageTemperatureDisplay" min="-2" pref="47" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="dayOfWeekTemperatureDisplay6" min="-2" pref="37" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="dayOfWeekTemperatureDisplay7" min="-2" pref="37" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="54" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="programTitleLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Daily Temperatures For A Week"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="programUserInfoLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="This program records the daily Maximum Temperatures for a week"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="weekDayInputTemperatureLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="question"/>
+      </Properties>
+      <Events>
+        <EventHandler event="ancestorAdded" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="weekDayInputTemperatureLabelAncestorAdded"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="dailyHighTemperatureInput">
+    </Component>
+    <Component class="javax.swing.JButton" name="dailyHighConfirmationButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dailyHighConfirmationButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="displayTemperatureButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Display Temperatures"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="displayTemperatureButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="maximumTemperatureDisplay">
+    </Component>
+    <Component class="javax.swing.JLabel" name="minimumTemperatureDisplay">
+    </Component>
+    <Component class="javax.swing.JLabel" name="averageTemperatureDisplay">
+    </Component>
+    <Component class="javax.swing.JLabel" name="dayOfWeekTemperatureDisplay1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="dayOfWeekTemperatureDisplay2">
+    </Component>
+    <Component class="javax.swing.JLabel" name="dayOfWeekTemperatureDisplay3">
+    </Component>
+    <Component class="javax.swing.JLabel" name="dayOfWeekTemperatureDisplay4">
+    </Component>
+    <Component class="javax.swing.JLabel" name="dayOfWeekTemperatureDisplay5">
+    </Component>
+    <Component class="javax.swing.JLabel" name="dayOfWeekTemperatureDisplay6">
+    </Component>
+    <Component class="javax.swing.JLabel" name="dayOfWeekTemperatureDisplay7">
+    </Component>
+  </SubComponents>
+</Form>

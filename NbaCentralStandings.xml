@@ -1,0 +1,70 @@
+
+
+<nbastandings>
+    <division>
+        <name>Central</name>
+        <team>
+            <name>Chicago Bulls</name>
+            <gameswon>50</gameswon>
+            <gameslost>32</gameslost>
+            <divisionstanding>2nd</divisionstanding>
+        </team>
+        <team>
+            <name>Cleveland Caveliers</name>
+            <gameswon>53</gameswon>
+            <gameslost>29</gameslost>
+            <divisionstanding>1st</divisionstanding>
+        </team>
+        <team>
+            <name>Indiana Pacers</name>
+            <gameswon>38</gameswon>
+            <gameslost>44</gameslost>
+            <divisionstanding>4th</divisionstanding>
+        </team>
+            
+    </division>
+    <division>
+        <name>Atlantic</name>
+        <team>
+            <name>Toronto Raptors</name>
+            <gameswon>49</gameswon>
+            <gameslost>33</gameslost>
+            <divisionstanding>1st</divisionstanding>
+        </team>
+        <team>
+            <name>Boston Celtics</name>
+            <gameswon>40</gameswon>
+            <gameslost>42</gameslost>
+            <divisionstanding>2nd</divisionstanding>
+        </team>
+        <team>
+            <name>Brooklyn Nets</name>
+            <gameswon>38</gameswon>
+            <gameslost>44</gameslost>
+            <divisionstanding>3rd</divisionstanding>
+        </team>
+            
+    </division>
+    <division>
+        <name>South East</name>
+        <team>
+            <name>Atlanta Hawks</name>
+            <gameswon>60</gameswon>
+            <gameslost>22</gameslost>
+            <divisionstanding>1st</divisionstanding>
+        </team>
+        <team>
+            <name>Washington Wizards</name>
+            <gameswon>46</gameswon>
+            <gameslost>36</gameslost>
+            <divisionstanding>2nd</divisionstanding>
+        </team>
+        <team>
+            <name>Miami Heat</name>
+            <gameswon>37</gameswon>
+            <gameslost>45</gameslost>
+            <divisionstanding>3rd</divisionstanding>
+        </team>
+            
+    </division>
+</nbastandings>

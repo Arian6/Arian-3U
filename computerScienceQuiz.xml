@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quizQuestions>
+    <questions>
+       
+        <question>How many elements can an array have?</question>
+        <correctAnswer>Unlimited</correctAnswer>
+        <answer2>50</answer2>
+        <answer3>25</answer3>
+        <answer4>100</answer4>
+    </questions>
+    <questions>
+ 
+        <question>What method would be used for a single integer value?</question>
+        <correctAnswer>Int</correctAnswer>
+        <answer2>Double</answer2>
+        <answer3>String</answer3>
+        <answer4>Boolean</answer4>
+    </questions>
+    <questions>
+  
+        <question>What does G.U.I stand for?</question>
+        <correctAnswer>Graphical User Interface</correctAnswer>
+        <answer2>Graphic User Intelligence</answer2>
+        <answer3>Graphic Understanding of Interfaces</answer3>
+        <answer4>Google Understands Intelligence</answer4>
+    </questions>
+    <questions>
+   
+        <question>What is used to store codes online in repositories?</question>
+        <correctAnswer>Github</correctAnswer>
+        <answer2>Google</answer2>
+        <answer3>Netbeans</answer3>
+        <answer4>Windows XP</answer4>
+    </questions>
+    <questions>
+ 
+        <question>What does RAM stand for?</question>
+        <correctAnswer>Random Access Memory</correctAnswer>
+        <answer2>Random Assemled Memory</answer2>
+        <answer3>Registered Accessible Memory</answer3>
+        <answer4>Random Access Melodies</answer4>
+    </questions>
+    <questions>
+
+        <question>Windows 7 is an example of a/an...?</question>
+        <correctAnswer>Operating System</correctAnswer>
+        <answer2>Program</answer2>
+        <answer3>Editing Software</answer3>
+        <answer4>Hard Drive</answer4>
+    </questions>
+    <questions>
+
+        <question>How many Bytes are in one Kilobyte?</question>
+        <correctAnswer>1024</correctAnswer>
+        <answer2>100</answer2>
+        <answer3>1020</answer3>
+        <answer4>995</answer4>
+    </questions>
+    <questions>
+    
+        <question>What does LAN stand for?</question>
+        <correctAnswer>Local Area Network</correctAnswer>
+        <answer2>Large Area Network</answer2>
+        <answer3>Logistic Accessible Network</answer3>
+        <answer4>Length Area Network</answer4>
+    </questions>
+    <questions>
+    
+        <question>Which of the following is not a storage device?</question>
+        <correctAnswer>Mouse</correctAnswer>
+        <answer2>DVD</answer2>
+        <answer3>Hard Drive</answer3>
+        <answer4>SSD</answer4>
+    </questions>
+    <questions>
+   
+        <question>What does USB Stand for?</question>
+        <correctAnswer>Universal Serial Bus</correctAnswer>
+        <answer2>Undeniable Serial Bus</answer2>
+        <answer3>Universal Science Bus</answer3>
+        <answer4>Understanding Serial Bus</answer4>
+    </questions>
+    <questions>
+   
+        <question>Java is a type of computer language. Which of these is another language?</question>
+        <correctAnswer>HTML</correctAnswer>
+        <answer2>Snake</answer2>
+        <answer3>Transcript</answer3>
+        <answer4>Microsoft</answer4>
+    </questions>
+    <questions>
+
+        <question>What would the output display of "double x = 12" be?</question>
+        <correctAnswer>12.0</correctAnswer>
+        <answer2>12</answer2>
+        <answer3>120</answer3>
+        <answer4>1.2</answer4>
+    </questions>
+    <questions>
+
+        <question>Where did the field trip for this course take place?</question>
+        <correctAnswer>Artex Environmental</correctAnswer>
+        <answer2>Eco Helpers</answer2>
+        <answer3>Eco Friendly Management</answer3>
+        <answer4>E-waste</answer4>
+    </questions>
+    <questions>
+        
+        <question>The "Worst Video Game Ever" is said to be?</question>
+        <correctAnswer>E.T the video game</correctAnswer>
+        <answer2>GTA 5</answer2>
+        <answer3>Arkham Origins</answer3>
+        <answer4>Pong</answer4>
+    </questions>
+    <questions>
+
+        <question>Which of the following is a computer processor making company?</question>
+        <correctAnswer>Intel</correctAnswer>
+        <answer2>Microsoft</answer2>
+        <answer3>Apple</answer3>
+        <answer4>Google</answer4>
+    </questions>
+  
+    
+    
+</quizQuestions>
+
